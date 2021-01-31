@@ -1,0 +1,49 @@
+
+div.toggler {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  padding: 0 15px 30px 20px;
+
+  width: 220px;
+}
+
+div.toggler-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.toggler:hover {
+  cursor: pointer;
+}
+
+div.toggler button {
+    background-color: black;
+    appearance: none;
+    border: none;
+    font-family: inherit;
+    padding: 5px 15px;
+    margin: 5px 0 0 0;
+    color: #ffffff;
+    cursor: pointer;
+    border: 1px solid white;
+    flex-grow: 1;
+
+}
+
+div.toggler button.selected {
+  color: #000000;
+  background-color: #ffffff;
+  outline: none;
+
+}
+
+button:active {
+    outline: none;
+    border: none;
+}
+
+h3.styles {
+  margin: 0 0 5px 0;
+}

@@ -1,0 +1,65 @@
+div#map {
+  position: fixed;
+  top: 20px;
+  right: 70px;
+  bottom: 30px;
+  width: 80%;
+}
+
+.mapboxgl-map {
+  font: 12px/20px Helvetica Neue, Arial, Helvetica, sans-serif;
+  overflow: visible;
+  position: relative;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+.mapboxgl-canvas:focus {
+  outline: none;
+}
+
+.mapboxgl-canvas {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0
+}
+
+.mapboxgl-ctrl-attrib {
+  display: none;
+}
+
+.mapboxgl-ctrl-bottom-left {
+  display: none;
+}
+
+.mapboxgl-ctrl-top-right {
+  top: 0;
+  right: 0;
+  transform: translateX(50px);
+}
+
+.mapboxgl-ctrl-top-right .mapboxgl-ctrl {
+  margin: 0;
+  float: right;
+}
+
+.mapboxgl-ctrl-group {
+  border-radius: 0px;
+  background: #000;
+  border: 1px solid white;
+}
+
+.mapboxgl-ctrl button.mapboxgl-ctrl-zoom-out .mapboxgl-ctrl-icon {
+  filter: invert(100%);
+  filter: brightness(50);
+}
+
+.mapboxgl-ctrl button.mapboxgl-ctrl-zoom-in .mapboxgl-ctrl-icon {
+  filter: invert(100%);
+  filter: brightness(50);
+}
+
+.mapboxgl-ctrl button.mapboxgl-ctrl-compass .mapboxgl-ctrl-icon {
+  filter: invert(100%);
+  filter: brightness(50);
+}

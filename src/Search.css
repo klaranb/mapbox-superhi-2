@@ -1,0 +1,44 @@
+.formContainer {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 20px;
+  height: 100vh;
+  background-color: black;
+}
+
+form {
+  /* position: relative; */
+  top: 10px;
+  left: 20px;
+  z-index: 1;
+  margin-left: 10px;
+  font-family: inherit;
+}
+
+form input {
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  background-color: black;
+  border: none;
+  border-bottom: 1px solid white;
+  caret-color: white;
+  color: white;
+  font-family: inherit;
+}
+
+.search-icon {
+  width: 10px;
+  height: 10px;
+  margin-top: 10px;
+}

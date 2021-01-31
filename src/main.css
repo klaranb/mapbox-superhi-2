@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Mono:regular,italic');
+
+body {
+  margin: 0;
+  font-family: 'DM Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+h3 {
+  font-size: 12px;
+  color: white;
+}
+
+p {
+  font-size: 12px;
+}
+
+button {
+  font-size: 11px;
+}

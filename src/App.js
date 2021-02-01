@@ -6,6 +6,7 @@ import PlacesPanel from './PlacesPanel';
 import './main.css';
 
 
+
 class App extends Component {
   constructor(props) {
     super(props)

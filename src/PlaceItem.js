@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import mapbox from 'mapbox-gl';
 import './main.css';
-import {ReactComponent as CloseIcon} from './close.svg';
 
 
 class PlaceItem extends Component {
@@ -46,7 +45,6 @@ class PlaceItem extends Component {
 
     return (
       <div className="place-item" onClick={() => this.goTo()}>
-        <CloseIcon className="close-icon" onClick={this.handleClick}/>
         <div className="place-name">{places.name}</div>
         <span className="coordinates">({places.latitude}, {places.longitude})</span>
       </div>

@@ -44,6 +44,16 @@ button:active {
     border: none;
 }
 
+p {
+  font-size: 11px;
+  color: white;
+  /* margin: 5px 0 30px 0; */
+}
+
 h3.styles {
-  margin: 0 0 5px 0;
+  margin: 30px 0 5px 0;
+}
+
+h3.instructions  {
+  margin: 0 0 10px 0;
 }

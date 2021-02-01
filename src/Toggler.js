@@ -32,6 +32,13 @@ class Toggler extends Component {
 
     return (
       <div className="toggler">
+        <h3 className="instructions">Instructions</h3>
+        <p className="instructions">
+        Search for a formative location and press enter. Click the location name to jump to it on the map. Zoom in enough to see smaller streets.
+        </p>
+        <p>
+        Flip through the map styles and screenshot one of them. Repeat the process with the rest of your locations. Each location can be a different style or be the same.
+        </p>
         <h3 className="styles">Map Styles</h3>
         <div className="toggler-buttons">
           {buttons}

@@ -13,9 +13,9 @@ class App extends Component {
 
     this.state = {
       map: null,
-      latitude: 40.7128,
-      longitude: -74.006,
-      style: 'mapbox://styles/mapbox/dark-v9',
+      latitude: 40.7112,
+      longitude: -74.001,
+      style: 'mapbox://styles/klaranb/ckkn2desv4wh817t6o4fvwk2y',
       places: [
 
       ]

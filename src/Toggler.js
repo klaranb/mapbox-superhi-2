@@ -11,11 +11,14 @@ class Toggler extends Component {
 
   render () {
     const styles = [
-      { name: "Satellite", url: "mapbox://styles/klaranb/ckklcfk2x3ncy17nwmc9wvkyx"},
-      { name: "Dark", url: "mapbox://styles/mapbox/dark-v9"},
-      { name: "Light", url: "mapbox://styles/mapbox/light-v9"},
+      { name: "Le Shine", url: "mapbox://styles/klaranb/ckkn2desv4wh817t6o4fvwk2y"},
       { name: "Frank", url: "mapbox://styles/klaranb/ckklgoi8x3rhe17phdqseewxr"},
-      { name: "Standard", url: "mapbox://styles/klaranb/ckklhkbdo3se617nsmfsa8o9e"}
+      { name: "Dark", url: "mapbox://styles/klaranb/ckkn487aw5d7p17phc9s21wzn"},
+      { name: "Blue", url: "mapbox://styles/klaranb/ckkmzyje358vb17o27yrm6g9b"},
+      { name: "Star", url: "mapbox://styles/klaranb/ckkn7ml9v5gv617qir4vhnq0n"},
+      { name: "Standard", url: "mapbox://styles/klaranb/ckklhkbdo3se617nsmfsa8o9e"},
+      // { name: "North Star", url: "mapbox://styles/klaranb/ckkn2fy6b5bhm17tin9vy5exk"}
+
     ]
     const buttons = styles.map((style, index) => {
       let className = ""

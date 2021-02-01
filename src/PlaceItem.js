@@ -12,7 +12,7 @@ class PlaceItem extends Component {
 
     map.flyTo({
       center: [places.longitude, places.latitude],
-      zoom: 12
+      zoom: 14
     })
   }
 

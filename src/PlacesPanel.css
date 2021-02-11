@@ -13,7 +13,7 @@ div.places-inner {
   /* display: flex;
   flex-direction: column; */
   width: 220px;
-  height: 45%;
+  height: 40%;
   overflow-Y: auto;
   overflow-X: visible;
   /* align-content: flex-start; */
